@@ -133,6 +133,7 @@ namespace Gemstone_Hunter
                             if (player.WorldCenter.Y < enemies[x].WorldLocation.Y)
                             {
                                 player.Jump();
+                                player.PlayAnimation("jump");
                                 player.Score += 5;
                                 enemies[x].PlayAnimation("die");
                                 enemies[x].Dead = true; ;

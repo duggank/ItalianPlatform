@@ -21,3 +21,9 @@ C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Tile Engine\bin\x86\Debug
 C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Tile Engine.dll
 C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Tile Engine.pdb
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\bin\x86\Debug\Tile Engine.dll
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\bin\x86\Debug\Tile Engine.pdb
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\obj\x86\Debug\Tile Engine.csprojResolveAssemblyReference.cache
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\obj\x86\Debug\Tile Engine.dll
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Tile Engine\obj\x86\Debug\Tile Engine.pdb

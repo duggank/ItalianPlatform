@@ -62,10 +62,12 @@ namespace Gemstone_Hunter
                     content.Load<Texture2D>(@"Textures\Sprites\Player\Mario"),
                     34,
                     "jump",
-                    101,
+                    102,
                     1));
+            float i = animations["jump"].FrameLength;
+
             animations["jump"].LoopAnimation = false;
-            animations["jump"].FrameLength = 0.08f;
+            animations["jump"].FrameLength = 0.5f;
             animations["jump"].NextAnimation = "idle";
 
             animations.Add("die",
@@ -79,7 +81,7 @@ namespace Gemstone_Hunter
 
             frameWidth = 34;
             frameHeight = 32;
-            CollisionRectangle = new Rectangle(9, 1, 30, 32);
+            CollisionRectangle = new Rectangle(9, 1, 28, 32);
 
             drawDepth = 0.825f;
 
@@ -131,6 +133,10 @@ namespace Gemstone_Hunter
                 {
                     checkLevelTransition();
                 }
+
+                
+                //if (!onGround)
+                //    newAnimation = "jump";
 
 
                 if (currentAnimation == "jump")

@@ -22,31 +22,37 @@ namespace Gemstone_Hunter
             animations.Add("idle",
                 new AnimationStrip(
                     content.Load<Texture2D>(
-                        @"Textures\Sprites\MonsterC\Idle"),
-                    48,
-                    "idle"));
+                        @"Textures\Sprites\Goomba/goomba"),
+                    32,
+                    "idle",
+                    0,
+                    1));
             animations["idle"].LoopAnimation = true;
 
             animations.Add("run",
                 new AnimationStrip(
                     content.Load<Texture2D>(
-                        @"Textures\Sprites\MonsterC\Run"),
-                    48,
-                    "run"));
-            animations["run"].FrameLength = 0.1f;
+                        @"Textures\Sprites\Goomba/goomba"),
+                    32,
+                    "run",
+                    0,
+                    2));
+            animations["run"].FrameLength = 0.4f;
             animations["run"].LoopAnimation = true;
 
             animations.Add("die",
                 new AnimationStrip(
                     content.Load<Texture2D>(
-                        @"Textures\Sprites\MonsterC\Die"),
-                    48,
-                    "die"));
+                        @"Textures\Sprites\Goomba/goomba"),
+                    32,
+                    "die",
+                    64,
+                    1));
             animations["die"].LoopAnimation = false;
 
-            frameWidth = 48;
-            frameHeight = 48;
-            CollisionRectangle = new Rectangle(9, 1, 30, 46);
+            frameWidth = 32;
+            frameHeight = 32;
+            CollisionRectangle = new Rectangle(9, 1, 30, 32);
 
             worldLocation = new Vector2(
                 cellX * TileMap.TileWidth,

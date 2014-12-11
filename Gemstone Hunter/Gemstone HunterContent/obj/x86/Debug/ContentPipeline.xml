@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Gem.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Gem.xnb</Output>
+      <Time>2014-12-11T07:23:29.1442-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PlatformTiles.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\PlatformTiles.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\PlatformTiles.xnb</Output>
+      <Time>2014-12-11T07:23:29.1462-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Gem.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Gem.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Gem.xnb</Output>
+      <Time>2014-12-11T07:23:29.1472-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Die.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Die.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Die.xnb</Output>
+      <Time>2014-12-11T07:23:29.1492-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Idle.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb</Output>
+      <Time>2014-12-11T07:23:29.1502-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Run.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Run.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Run.xnb</Output>
+      <Time>2014-12-11T07:23:29.1962-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Die.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Die.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Die.xnb</Output>
+      <Time>2014-12-11T07:23:29.1972-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Idle.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb</Output>
+      <Time>2014-12-11T07:23:29.1972-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Run.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Run.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Run.xnb</Output>
+      <Time>2014-12-11T07:23:29.2092-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Die.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Die.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Die.xnb</Output>
+      <Time>2014-12-11T07:23:29.2102-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Idle.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb</Output>
+      <Time>2014-12-11T07:23:29.2452-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Run.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Run.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Run.xnb</Output>
+      <Time>2014-12-11T07:23:29.2452-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Die.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Die.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Die.xnb</Output>
+      <Time>2014-12-11T07:23:29.2902-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Idle.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb</Output>
+      <Time>2014-12-11T07:23:29.2902-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Run.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Run.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Run.xnb</Output>
+      <Time>2014-12-11T07:23:29.2912-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Celebrate.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Celebrate.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Celebrate.xnb</Output>
+      <Time>2014-12-11T07:23:29.3222-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Die.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Die.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Die.xnb</Output>
+      <Time>2014-12-11T07:23:29.3232-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Jump.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Jump.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Jump.xnb</Output>
+      <Time>2014-12-11T07:23:29.3242-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Run.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Run.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Run.xnb</Output>
+      <Time>2014-12-11T07:23:29.3632-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2010-08-17T13:26:14-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2014-12-11T07:23:29.3732-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Mario.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Mario.xnb</Output>
-      <Time>2014-12-10T08:29:54.4362-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Mario.xnb</Output>
+      <Time>2014-12-11T07:23:29.3242-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\Pericles8.spritefont</Source>
@@ -196,8 +196,17 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Fonts\Pericles8.xnb</Output>
-      <Time>2010-08-17T13:26:58-04:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Fonts\Pericles8.xnb</Output>
+      <Time>2014-12-11T07:23:29.0952-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Sprites\Goomba\goomba.png</Source>
+      <Name>Textures\Sprites\Goomba\goomba</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Goomba\goomba.xnb</Output>
+      <Time>2014-12-11T08:10:38.0292-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -205,10 +214,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\EAHSCS\Desktop\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone HunterContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

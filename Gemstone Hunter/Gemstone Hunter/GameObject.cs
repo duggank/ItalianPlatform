@@ -145,7 +145,7 @@ namespace Gemstone_Hunter
             return moveAmount;
         }
 
-        private Vector2 verticalCollisionTest(Vector2 moveAmount)
+        protected Vector2 verticalCollisionTest(Vector2 moveAmount)
         {
             if (moveAmount.Y == 0)
                 return moveAmount;
