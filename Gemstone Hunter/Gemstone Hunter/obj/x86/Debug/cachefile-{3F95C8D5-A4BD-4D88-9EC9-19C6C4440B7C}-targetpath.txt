@@ -19,7 +19,9 @@ Content\Textures\Sprites\Player\Jump.xnb
 Content\Textures\Sprites\Player\Run.xnb
 Content\Textures\TitleScreen.xnb
 Content\Textures\Sprites\Player\Mario.xnb
-Content\Fonts\Pericles8.xnb
 Content\Textures\Sprites\Goomba\goomba.xnb
+Content\Textures\Sprites\Player\marioBig.xnb
+Content\Textures\Sprites\Player\marioFire.xnb
+Content\Fonts\Pericles8.xnb
 Content\Maps\MAP000.MAP
 Content\Maps\MAP001.MAP
