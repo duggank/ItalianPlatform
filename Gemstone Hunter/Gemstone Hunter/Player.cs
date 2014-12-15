@@ -246,6 +246,11 @@ namespace Gemstone_Hunter
 
         #endregion
 
+        
+        
+        
+        
+        
         #region Helper Methods
         private void repositionCamera()
         {

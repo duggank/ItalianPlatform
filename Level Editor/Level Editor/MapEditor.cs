@@ -81,9 +81,12 @@ namespace Level_Editor
         {
             try
             {
+                String filepath = /*Application.StartupPath + @"\..\..\..\..\..\Gemstone Hunter\Gemstone Hunter\bin\x86\Content\Maps\MAP"*/
+                    @"C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Maps\MAP" +
+                    cboMapNumber.Items[cboMapNumber.SelectedIndex] + ".MAP";
+
                 TileMap.LoadMap(new FileStream(
-                    Application.StartupPath + @"\MAP" +
-                    cboMapNumber.Items[cboMapNumber.SelectedIndex] + ".MAP",
+                    filepath,
                     FileMode.Open));
             }
             catch
@@ -246,9 +249,12 @@ namespace Level_Editor
             object sender,
             EventArgs e)
         {
+            String filepath = /*Application.StartupPath + @"\..\..\..\..\..\Gemstone Hunter\Gemstone Hunter\bin\x86\Content\Maps\MAP"*/
+                    @"C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Maps\MAP" +
+                    cboMapNumber.Items[cboMapNumber.SelectedIndex] + ".MAP";
+
             TileMap.SaveMap(new FileStream(
-                Application.StartupPath + @"\MAP" +
-                cboMapNumber.Items[cboMapNumber.SelectedIndex] + ".MAP",
+                filepath,
                 FileMode.Create));
         }
 

@@ -252,6 +252,36 @@ namespace Tile_Engine
         }
         #endregion
 
+        static public void Update(GameTime gameTime)
+        {
+            int startX = GetCellByPixelX((int)Camera.Position.X);
+            int endX = GetCellByPixelX((int)Camera.Position.X +
+                  Camera.ViewPortWidth);
+
+            int startY = GetCellByPixelY((int)Camera.Position.Y);
+            int endY = GetCellByPixelY((int)Camera.Position.Y +
+                      Camera.ViewPortHeight);
+
+            for (int x = startX; x <= endX; x++)
+                for (int y = startY; y <= endY; y++)
+                {
+                    for (int z = 0; z < MapLayers; z++)
+                    {
+                        if ((x >= 0) && (y >= 0) &&
+                            (x < MapWidth) && (y < MapHeight))
+                        {
+                            Rectangle dest = CellScreenRectangle(x, y);
+                            dest.Y += mapCells[x, y].VerticalOffset;
+
+                            mapCells[x, y].Update(gameTime);
+
+                        }
+                    }
+
+
+                }
+        }
+
         #region Drawing
         static public void Draw(SpriteBatch spriteBatch)
         {
@@ -271,9 +301,26 @@ namespace Tile_Engine
                         if ((x >= 0) && (y >= 0) &&
                             (x < MapWidth) && (y < MapHeight))
                         {
+                            Rectangle dest = CellScreenRectangle(x, y);
+
+                            if (mapCells[x, y].VerticalOffset != 0)
+                            {
+                                spriteBatch.Draw(
+                                  tileSheet,
+                                  dest,
+                                  TileSourceRectangle(mapCells[x, y-1].LayerTiles[z]),
+                                  Color.White,
+                                  0.0f,
+                                  Vector2.Zero,
+                                  SpriteEffects.None,
+                                  1f - ((float)z * 0.1f));
+                            }
+
+                            dest.Y -= mapCells[x, y].VerticalOffset;
+
                             spriteBatch.Draw(
                               tileSheet,
-                              CellScreenRectangle(x, y),
+                              dest,
                               TileSourceRectangle(mapCells[x, y].LayerTiles[z]),
                               Color.White,
                               0.0f,

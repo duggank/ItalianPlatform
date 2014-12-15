@@ -127,6 +127,7 @@ namespace Gemstone_Hunter
             if (gameState == GameState.Playing)
             {
                 player.Update(gameTime);
+                TileMap.Update(gameTime);
                 LevelManager.Update(gameTime);
                 if (player.Dead)
                 {

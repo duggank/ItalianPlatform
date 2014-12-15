@@ -132,6 +132,9 @@ namespace Gemstone_Hunter
                 velocity.X = 0;
             }
 
+            
+
+
             if (codeBasedBlocks)
             {
                 if (TileMap.CellCodeValue(mapCell1) == "BLOCK" ||
@@ -177,6 +180,14 @@ namespace Gemstone_Hunter
             {
                 if (moveAmount.Y > 0)
                     onGround = true;
+                else
+                {
+                    onGround = false;
+                    //Vector2 cell = TileMap.GetCellByPixel(new Vector2(afterMoveRect.Left + afterMoveRect.Width / 2, afterMoveRect.Top));
+                    MapSquare block = TileMap.GetMapSquareAtPixel(new Vector2(afterMoveRect.Left + afterMoveRect.Width / 2, afterMoveRect.Top));
+                    block.VerticalOffset = 30;
+                }
+
                 moveAmount.Y = 0;
                 velocity.Y = 0;
             }

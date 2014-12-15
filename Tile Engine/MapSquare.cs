@@ -14,6 +14,10 @@ namespace Tile_Engine
         public int[] LayerTiles = new int[3];
         public string CodeValue = "";
         public bool Passable = true;
+        public int VerticalOffset = 0;
+        public float VerticalOffsetTimer = 0;
+        public float VerticalOffsetTimerMax = 0;
+
         #endregion
 
         #region Constructor
@@ -39,5 +43,17 @@ namespace Tile_Engine
         }
         #endregion
 
+        public void Update(GameTime gameTime)
+        {
+            VerticalOffsetTimer += gameTime.ElapsedGameTime.Milliseconds;
+
+            if (VerticalOffsetTimer > VerticalOffsetTimerMax)
+            {
+                VerticalOffsetTimer = 0;
+
+                if (VerticalOffset > 0)
+                    VerticalOffset--;
+            }
+        }
     }
 }
