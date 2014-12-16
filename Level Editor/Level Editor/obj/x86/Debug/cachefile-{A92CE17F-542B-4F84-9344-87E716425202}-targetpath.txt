@@ -20,4 +20,5 @@ Content\Textures\Sprites\Player\Idle.xnb
 Content\Textures\Sprites\Player\Jump.xnb
 Content\Textures\Sprites\Player\Run.xnb
 Content\Textures\TitleScreen.xnb
+Content\Textures\tiles.xnb
 Content\Textures\PlatformTiles.png

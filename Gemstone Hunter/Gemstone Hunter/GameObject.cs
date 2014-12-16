@@ -185,7 +185,12 @@ namespace Gemstone_Hunter
                     onGround = false;
                     //Vector2 cell = TileMap.GetCellByPixel(new Vector2(afterMoveRect.Left + afterMoveRect.Width / 2, afterMoveRect.Top));
                     MapSquare block = TileMap.GetMapSquareAtPixel(new Vector2(afterMoveRect.Left + afterMoveRect.Width / 2, afterMoveRect.Top));
-                    block.VerticalOffset = 30;
+
+                    // Check to see if there is a block there!
+                    if (block != null)
+                    {
+                        block.VerticalOffset = 30;
+                    }
                 }
 
                 moveAmount.Y = 0;
@@ -209,7 +214,7 @@ namespace Gemstone_Hunter
 
         #endregion
 
-        #region Public Methods
+        #region Public Methods 
         public void PlayAnimation(string name)
         {
             if (!(name == null) && animations.ContainsKey(name))

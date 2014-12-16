@@ -99,6 +99,15 @@ namespace Gemstone_Hunter
                         3));
                 animations["runBig"].LoopAnimation = true;
 
+                animations.Add("Crouch",
+                    new AnimationStrip(
+                        content.Load<Texture2D>(@"Textures/Sprites/Player/marioBig"),
+                        32,
+                        "run",
+                        160,
+                        1));
+                animations["Crouch"].LoopAnimation = true;
+
                 animations.Add("jumpBig",
                     new AnimationStrip(
                         content.Load<Texture2D>(@"Textures\Sprites\Player\marioBig"),
@@ -150,6 +159,11 @@ namespace Gemstone_Hunter
                 velocity = new Vector2(0, velocity.Y);
                 GamePadState gamePad = GamePad.GetState(PlayerIndex.One);
                 KeyboardState keyState = Keyboard.GetState();
+
+                if (keyState.IsKeyDown(Keys.Down) && BigMario)
+                {
+                    newAnimation = "Crouch";
+                }
 
                 if (keyState.IsKeyDown(Keys.Left) ||
                     (gamePad.ThumbSticks.Left.X < -0.3f))
