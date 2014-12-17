@@ -14,7 +14,6 @@ namespace Gemstone_Hunter
     {
         private Vector2 fallSpeed = new Vector2(0, 20);
         private float moveScale = 180.0f;
-        private bool dead = false;
         private int score = 0;
         private int livesRemaining = 3;
         public bool BigMario = true;
@@ -143,7 +142,8 @@ namespace Gemstone_Hunter
 
             frameWidth = 34;
             frameHeight = 32;
-            CollisionRectangle = new Rectangle(9, 1, 28, 32);
+            if(!Dead)
+                CollisionRectangle = new Rectangle(9, 1, 28, 32);
 
             if (BigMario)
             {
@@ -170,6 +170,10 @@ namespace Gemstone_Hunter
                 {
                     flipped = true;
                     newAnimation = "run" + (BigMario ? "Big" : "");
+                    if (keyState.IsKeyDown(Keys.Down) && BigMario)
+                    {
+                        newAnimation = "Crouch";
+                    }
                     velocity = new Vector2(-moveScale, velocity.Y);
                 }
 
@@ -178,6 +182,10 @@ namespace Gemstone_Hunter
                 {
                     flipped = false;
                     newAnimation = "run" + (BigMario ? "Big" : "");
+                    if (keyState.IsKeyDown(Keys.Down) && BigMario)
+                    {
+                        newAnimation = "Crouch";
+                    }
                     velocity = new Vector2(moveScale, velocity.Y);
                 }
 
@@ -234,7 +242,7 @@ namespace Gemstone_Hunter
 
         public void Jump()
         {
-            velocity.Y = -500;
+            velocity.Y = -620;
         }
 
         public void Kill()
@@ -248,6 +256,8 @@ namespace Gemstone_Hunter
                 PlayAnimation("die");
                 LivesRemaining--;
                 velocity.X = 0;
+                velocity.Y = -500;
+                
                 dead = true;
             }
         }
@@ -260,8 +270,14 @@ namespace Gemstone_Hunter
 
         #endregion
 
-        
-        
+
+        protected override Vector2 verticalCollisionTest(Vector2 moveAmount)
+        {
+            if (this.Dead)
+                return Vector2.Zero;
+
+            return base.verticalCollisionTest(moveAmount);
+        }
         
         
         

@@ -15,6 +15,7 @@ namespace Gemstone_Hunter
         protected Vector2 velocity;
         protected int frameWidth;
         protected int frameHeight;
+        protected bool dead = false;
 
         protected bool enabled;
         protected bool flipped = false;
@@ -148,8 +149,9 @@ namespace Gemstone_Hunter
             return moveAmount;
         }
 
-        protected Vector2 verticalCollisionTest(Vector2 moveAmount)
+        protected virtual Vector2 verticalCollisionTest(Vector2 moveAmount)
         {
+           
             if (moveAmount.Y == 0)
                 return moveAmount;
 
@@ -240,8 +242,11 @@ namespace Gemstone_Hunter
 
             Vector2 moveAmount = velocity * elapsed;
 
-            moveAmount = horizontalCollisionTest(moveAmount);
-            moveAmount = verticalCollisionTest(moveAmount);
+            if (!dead)
+            {
+                moveAmount = horizontalCollisionTest(moveAmount);
+                moveAmount = verticalCollisionTest(moveAmount);
+            }
 
             Vector2 newPosition = worldLocation + moveAmount;
 

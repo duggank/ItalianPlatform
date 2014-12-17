@@ -8,7 +8,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Fonts\Pericles8.xnb</Output>
-      <Time>2014-12-16T07:26:00.801-05:00</Time>
+      <Time>2014-12-17T07:22:16.1948-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Gem.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Gem.xnb</Output>
-      <Time>2014-12-16T07:26:00.811-05:00</Time>
+      <Time>2014-12-17T07:22:16.1958-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\PlatformTiles.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\PlatformTiles.xnb</Output>
-      <Time>2014-12-16T07:26:00.813-05:00</Time>
+      <Time>2014-12-17T07:22:16.1968-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Gem.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Gem.xnb</Output>
-      <Time>2014-12-16T07:26:00.846-05:00</Time>
+      <Time>2014-12-17T07:22:16.1978-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Die.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Die.xnb</Output>
-      <Time>2014-12-16T07:26:00.848-05:00</Time>
+      <Time>2014-12-17T07:22:16.1988-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Idle.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb</Output>
-      <Time>2014-12-16T07:26:00.849-05:00</Time>
+      <Time>2014-12-17T07:22:16.1988-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterA\Run.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Run.xnb</Output>
-      <Time>2014-12-16T07:26:00.885-05:00</Time>
+      <Time>2014-12-17T07:22:16.1998-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Die.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Die.xnb</Output>
-      <Time>2014-12-16T07:26:00.887-05:00</Time>
+      <Time>2014-12-17T07:22:16.2008-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Idle.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb</Output>
-      <Time>2014-12-16T07:26:00.891-05:00</Time>
+      <Time>2014-12-17T07:22:16.2008-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterB\Run.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Run.xnb</Output>
-      <Time>2014-12-16T07:26:00.895-05:00</Time>
+      <Time>2014-12-17T07:22:16.2018-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Die.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Die.xnb</Output>
-      <Time>2014-12-16T07:26:00.896-05:00</Time>
+      <Time>2014-12-17T07:22:16.2028-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Idle.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb</Output>
-      <Time>2014-12-16T07:26:00.897-05:00</Time>
+      <Time>2014-12-17T07:22:16.2028-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterC\Run.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Run.xnb</Output>
-      <Time>2014-12-16T07:26:00.9-05:00</Time>
+      <Time>2014-12-17T07:22:16.2038-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Die.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Die.xnb</Output>
-      <Time>2014-12-16T07:26:00.901-05:00</Time>
+      <Time>2014-12-17T07:22:16.2048-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Idle.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb</Output>
-      <Time>2014-12-16T07:26:00.902-05:00</Time>
+      <Time>2014-12-17T07:22:16.2048-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\MonsterD\Run.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Run.xnb</Output>
-      <Time>2014-12-16T07:26:00.959-05:00</Time>
+      <Time>2014-12-17T07:22:16.2058-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Celebrate.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Player\Celebrate.xnb</Output>
-      <Time>2014-12-16T07:26:00.96-05:00</Time>
+      <Time>2014-12-17T07:22:16.2058-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Die.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Player\Die.xnb</Output>
-      <Time>2014-12-16T07:26:00.962-05:00</Time>
+      <Time>2014-12-17T07:22:16.2068-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Idle.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Player\Idle.xnb</Output>
-      <Time>2014-12-16T07:26:01.258-05:00</Time>
+      <Time>2014-12-17T07:22:16.2068-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Jump.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Player\Jump.xnb</Output>
-      <Time>2014-12-16T07:26:01.489-05:00</Time>
+      <Time>2014-12-17T07:22:16.2078-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Sprites\Player\Run.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\Sprites\Player\Run.xnb</Output>
-      <Time>2014-12-16T07:26:01.538-05:00</Time>
+      <Time>2014-12-17T07:22:16.2078-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2014-12-16T07:26:01.589-05:00</Time>
+      <Time>2014-12-17T07:22:16.2158-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\tiles.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Level Editor\Level Editor\bin\x86\Debug\Content\Textures\tiles.xnb</Output>
-      <Time>2014-12-16T08:11:32.951-05:00</Time>
+      <Time>2014-12-17T07:22:16.2178-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
