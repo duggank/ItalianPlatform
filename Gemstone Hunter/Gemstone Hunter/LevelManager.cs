@@ -20,6 +20,7 @@ namespace Gemstone_Hunter
 
         private static List<Gemstone> gemstones = new List<Gemstone>();
         private static List<Enemy> enemies = new List<Enemy>();
+        private static List<Mushroom> mushrooms = new List<Mushroom>();
         #endregion
 
         #region Properties
@@ -67,6 +68,7 @@ namespace Gemstone_Hunter
 
             gemstones.Clear();
             enemies.Clear();
+            mushrooms.Clear();
 
             for (int x = 0; x < TileMap.MapWidth; x++)
             {
@@ -87,6 +89,10 @@ namespace Gemstone_Hunter
                     if (TileMap.CellCodeValue(x, y) == "ENEMY")
                     {
                         enemies.Add(new Enemy(Content, x, y));
+                    }
+                    if (TileMap.CellCodeValue(x, y) == "Mushroom")
+                    {
+                        mushrooms.Add(new Mushroom(Content, x, y - 10));
                     }
 
                 }
@@ -119,6 +125,18 @@ namespace Gemstone_Hunter
                     {
                         gemstones.RemoveAt(x);
                         player.Score += 10;
+                    }
+                }
+
+                for (int x = mushrooms.Count - 1; x >= 0; x--)
+                {
+                    mushrooms[x].Update(gameTime);
+                    if (player.CollisionRectangle.Intersects(
+                        mushrooms[x].CollisionRectangle))
+                    {
+                        mushrooms.RemoveAt(x);
+                        player.Score += 15;
+                        player.BigMario = true;
                     }
                 }
 
@@ -163,6 +181,9 @@ namespace Gemstone_Hunter
 
             foreach (Enemy enemy in enemies)
                 enemy.Draw(spriteBatch);
+
+            foreach (Mushroom mushroom in mushrooms)
+                mushroom.Draw(spriteBatch);
 
         }
 
