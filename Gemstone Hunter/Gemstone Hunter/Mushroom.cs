@@ -14,6 +14,7 @@ namespace Gemstone_Hunter
         #region MyCode
         private Vector2 fallSpeed = new Vector2(0, 20);
         private float walkSpeed = 60.0f;
+        private bool facingLeft = true;
 
         public bool Dead;
 
@@ -47,17 +48,39 @@ namespace Gemstone_Hunter
         }
         public override void Update(GameTime gameTime)
         {
+            Vector2 oldLocation = worldLocation;
+
             if (!Dead)
             {
                 velocity = new Vector2(0, velocity.Y);
 
                 Vector2 direction = new Vector2(1, 0);
 
+                if (facingLeft)
+                {
+                    direction = new Vector2(-1, 0);
+                }
+
                 direction *= walkSpeed;
                 velocity += direction;
                 velocity += fallSpeed;
             }
             base.Update(gameTime);
+
+            if (!Dead)
+            {
+                if (oldLocation == worldLocation)
+                {
+                    facingLeft = !facingLeft;
+                }
+            }
+            else
+            {
+                if (animations[currentAnimation].FinishedPlaying)
+                {
+                    enabled = false;
+                }
+            }
         }
         #endregion
     }

@@ -25,6 +25,8 @@ namespace Tile_Engine
         public const int MapLayers = 3;
         private const int skyTile = 2;
 
+    
+
         static private MapSquare[,] mapCells =
             new MapSquare[MapWidth, MapHeight];
 
@@ -270,6 +272,7 @@ namespace Tile_Engine
                         if ((x >= 0) && (y >= 0) &&
                             (x < MapWidth) && (y < MapHeight))
                         {
+                            
                             Rectangle dest = CellScreenRectangle(x, y);
                             dest.Y += mapCells[x, y].VerticalOffset;
 
@@ -302,7 +305,7 @@ namespace Tile_Engine
                             (x < MapWidth) && (y < MapHeight))
                         {
                             Rectangle dest = CellScreenRectangle(x, y);
-
+                          
                             if (mapCells[x, y].VerticalOffset != 0)
                             {
                                 spriteBatch.Draw(
