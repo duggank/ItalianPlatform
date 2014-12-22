@@ -138,8 +138,9 @@ namespace Gemstone_Hunter
         {
             KeyboardState kb = Keyboard.GetState();
             if (kb.IsKeyDown(Keys.C))
+            {
                 BigMario = !BigMario;
-
+            }
             frameWidth = 34;
             frameHeight = 32;
             if(!Dead)

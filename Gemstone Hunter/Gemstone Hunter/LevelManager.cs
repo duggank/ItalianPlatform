@@ -92,7 +92,7 @@ namespace Gemstone_Hunter
                     }
                     if (TileMap.CellCodeValue(x, y) == "Mushroom")
                     {
-                        mushrooms.Add(new Mushroom(Content, x, y - 10));
+                        mushrooms.Add(new Mushroom(Content, x, y));
                     }
 
                 }
@@ -137,6 +137,8 @@ namespace Gemstone_Hunter
                         mushrooms.RemoveAt(x);
                         player.Score += 15;
                         player.BigMario = true;
+                        player.Jump();
+                        
                     }
                 }
 

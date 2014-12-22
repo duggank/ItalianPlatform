@@ -25,6 +25,7 @@ namespace Gemstone_Hunter
         protected int collideWidth;
         protected int collideHeight;
         protected bool codeBasedBlocks = true;
+        public Player player;
 
         protected float drawDepth = 0.85f;
         protected Dictionary<string, AnimationStrip> animations =
@@ -59,6 +60,7 @@ namespace Gemstone_Hunter
         {
             get
             {
+                
                 return new Rectangle(
                     (int)worldLocation.X,
                     (int)worldLocation.Y,

@@ -161,3 +161,4 @@ C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter
 C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Goomba\goomba.xnb
 C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\marioBig.xnb
 C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\marioFire.xnb
+C:\Users\EAHSCS\Documents\GitHub\ItalianPlatform\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Mushroom\mushroom.xnb

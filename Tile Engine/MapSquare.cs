@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.Xna.Framework.Content;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
@@ -17,6 +18,7 @@ namespace Tile_Engine
         public int VerticalOffset = 0;
         public float VerticalOffsetTimer = 0;
         public float VerticalOffsetTimerMax = 0;
+        private static ContentManager Content;
 
         #endregion
 

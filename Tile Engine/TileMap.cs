@@ -24,7 +24,6 @@ namespace Tile_Engine
         public const int MapHeight = 12;
         public const int MapLayers = 3;
         private const int skyTile = 2;
-
     
 
         static private MapSquare[,] mapCells =
@@ -275,7 +274,7 @@ namespace Tile_Engine
                             
                             Rectangle dest = CellScreenRectangle(x, y);
                             dest.Y += mapCells[x, y].VerticalOffset;
-
+                            
                             mapCells[x, y].Update(gameTime);
 
                         }
